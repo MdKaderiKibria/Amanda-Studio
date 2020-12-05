@@ -1,0 +1,302 @@
+/* global css */
+body{
+    margin: 0px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    width: 1160px;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(238, 180, 180);
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+*{
+    margin: 0px;
+}
+h1,h2,h3,h4{
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+.row{
+    overflow: hidden;
+}
+.col4{
+    width: 33.33%;
+    float: left;
+}
+.col6{
+    width: 50%;
+    float: left;
+}
+.padd-70{
+    padding: 70px 0px;
+}
+.mini-header h1{
+    font-size: 20px;
+    text-align: center;
+}
+.big-header{
+    font-size: 45px;
+    text-align: left;
+}
+
+.btn{
+    padding: 20px 35px;
+    border: 2px solid rgb(231, 116, 116);
+    border-radius: 7px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    transition: .9s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+    margin-bottom: 10px;
+    color: white;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.btn:hover{
+    background-color: indianred;
+}
+.btn1{
+    padding: 20px 35px;
+    background-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    transition: .9s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+    margin-bottom: 10px;
+    color: rgb(226, 133, 133);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.btn1:hover{
+    border: 2px solid rgb(151, 76, 76);
+    background-color: rgb(150, 75, 75);
+}
+
+
+/* header css */
+header{
+    background-color: rgb(138, 90, 90);
+}
+.header-wrap{
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 0px;
+}
+.logo{
+    width: 20%;
+    float: left;
+    vertical-align: middle;
+}
+
+.nav{
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+/* .logo img{
+    width: 100px;
+    display: inline;
+} */
+.logo h3{
+    display: inline;
+    margin-bottom: 30px;
+    color: white;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 10px 40px;
+    border-bottom: 2px solid transparent;
+    text-align: center;
+    padding: 0px 10px 5px;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+li:hover{
+    border-bottom: 2px solid white;
+}
+
+
+/* hero css */
+.hero{
+    min-height: 600px;
+    background: url(../images/shutterstock_562197061.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 10px 10px rgb(240, 110, 110);
+}
+.big-text{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 150px;
+}
+.hero-content{
+    padding: 200px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+/* full-wrap css */
+
+.full-wrap{
+    background-color: rgb(240, 140, 140);
+}
+
+/* mini contact css */
+.mini-contact{
+    text-align: center;
+    padding: 60px 0px;
+    color: white;
+    font-size: 18px;
+}
+
+/* about css */
+.col-about1{
+    width: 25%;
+    padding: 220px 0px 300px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+.col-about2{
+    width: 33%;
+}
+.col-about2 img{
+    width: 100%;
+}
+.col-about3{
+    width: 40%;
+    margin-top: 150px;
+}
+.col-about3 p{
+    margin:0px 50px 100px;
+}
+
+.col-about3 .btn{
+    margin-left: 50px;
+}
+
+/* service wrap */
+.service-row1{
+    margin-left: 100px;
+}
+.service-text{
+    margin-right: 50px;
+    width: 40%;
+}
+.service-img{
+    width: 55.99%;
+    text-align: right;
+}
+.service-text2{
+    width: 45%;
+    margin:100px 0px 0px 50px;
+    float: right;
+}
+.service-img2{
+    float: left;
+}
+
+.service-row2{
+    margin-top: 50px;
+}
+
+/* testimonial css */
+.testimonial{
+    text-align: center;
+}
+
+.sub-test-col img{
+    width: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.testimonial-col{
+    width: 44%;
+    border: 2px solid rgb(243, 187, 187);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.testimonial-col h4{
+    padding: 10px 0px 30px;
+}
+.sub-test-col{
+    width: 15%;
+}
+
+/* contact css */
+
+.contact{
+    background: url(../images/MAC-Look-in-a-Box-2016-Collection.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+}
+.contact-text{
+    text-align: center;
+    padding: 188px;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+/* footer css */
+
+footer{
+    background-color: rgb(129, 76, 76);
+    text-align: center;
+    padding: 30px;
+    overflow: hidden;
+}
+.copy, .top{
+    width: 50%;
+    float: left;
+}
+.top{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
